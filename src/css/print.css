@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e0e0e0;
+    font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', 微软雅黑, 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    top: 30%;
+}
+
+aside li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    background: #00bfa5;
+}
+
+aside a {
+    color: #fff;
+}
+
+.container {
+    width: 1260px;
+    height: 1782px;
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    padding: 50px;
+    background: #00bfa5;
+    color: #fff;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.title {
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+.title img {
+    display: block;
+    margin: 0 auto 15px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.side-info li {
+    padding-top: 20px;
+}
+
+.side-info dt {
+    font-size: 20px;
+    color: #9f3;
+    line-height: 40px;
+}
+
+.side-info dd {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.someRight dd {
+    margin-left: 25px;
+}
+
+.skill {
+    position: relative;
+}
+
+.skill dt{
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    width: 105px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: -3px;
+}
+
+.skill-bar-wrap {
+    height: 18px;
+    width: 180px;
+    background: #00796b;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.skill-bar {
+    height: 18px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+}
+
+.note {
+    text-indent: 2em;
+    margin-top: 100px;
+    color: #004d40;
+    font-size: 20px;
+}
+
+.main {
+    position: relative;
+    left: 400px;
+    width: 860px;
+    height: 1782px;
+    padding: 50px 50px 20px 30px ;
+    background: #f0f2f1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main a {
+    color: #4db6ac;
+}
+
+.main-info > li {
+    padding-top: 20px;
+}
+
+.main-info dt {
+    font-size: 28px;
+    font-weight: bold;
+    color: #555;
+    line-height: 30px;
+    border-bottom: 1px solid #555;
+    margin: 0 0 15px -5px;
+    padding-bottom: 2px;
+}
+
+.main-info dd {
+    font-size: 17px;
+    line-height: 27px;
+    color: #616161;
+}
+
+.main-info span {
+    color: #000;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #004d40;
+    margin: 20px 0 20px 5px;
+}
+
+h4 {
+    line-height: 30px;
+    font-size: 20px;
+    color: #00796b;
+    position: relative;
+    bottom: 3px;
+}
+
+h4 a,
+h5 a {
+    font-size: 14px;
+}
+
+h5 {
+    clear: both;
+    font-size: 18px;
+    color: #000;
+    line-height: 25px;
+}
+
+.circle {
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background: #00796b;
+    float: left;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+}
+
+.exp {
+    border-left: 2px solid #00796b;
+    margin-left: 15px;
+}
+
+.exp p {
+    font-size: 15px;
+    color: #616161;
+    line-height: 25px;
+}
+
+.exp > li {
+    position: relative;
+    top: -5px;
+    margin: 0 0 20px 20px;
+}
+
+.exp img {
+    width: 150px;
+}
+
+.exp ul > li {
+    margin: 0 0 12px 0;
+}
+
+.efe .task4img img {
+    height: 73px;
+    width: inherit;
+}
